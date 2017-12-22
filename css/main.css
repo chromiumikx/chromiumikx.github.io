@@ -1047,7 +1047,7 @@ pre .javascript .function {
   right: 30px;
   z-index: 1050;
   padding: 0 6px;
-  width: 24px;
+  width: initial;
   background: #222;
   font-size: 12px;
   opacity: 1;
@@ -1113,7 +1113,7 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: normal;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "STHeiti", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Droid Sans Fallback", "Microsoft YaHei", "SimHei", source-han-sans-simplified-c, sans-serif;
 }
@@ -1821,7 +1821,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #00758a;
+  background: #7ff650;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2898,4 +2898,169 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.site-title {
+  font-size: 75px;
+}
+.posts-expand {
+  padding-top: 10px;
+}
+.posts-expand .post-meta {
+  margin: 5px 0px 0px 0px;
+}
+.post-button {
+  margin-top: 0px;
+}
+.container {
+  background-color: rgba(250,250,250,0.7);
+}
+.sidebar {
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0);
+  background-color: rgba(70,70,70,0.7);
+}
+.sidebar-inner {
+  margin-top: 30px;
+}
+.sidebar-nav li {
+  font-size: 15px;
+  font-weight: bold;
+  color: #07b39b;
+}
+.sidebar-nav li:hover {
+  color: #a166ab;
+}
+.sidebar-nav .sidebar-nav-active {
+  color: #07b39b;
+  border-bottom-color: #a166ab;
+  border-bottom-width: 1.5px;
+}
+.sidebar-nav .sidebar-nav-active:hover {
+  color: #07b39b;
+}
+.site-overview {
+  line-height: 1.3;
+}
+.site-author-image {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  transition: transform 1s ease-out;
+}
+img:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+.posts-expand .post-body img:hover {
+  -webkit-transform: initial;
+  -moz-transform: initial;
+  -ms-transform: initial;
+  -o-transform: initial;
+  transform: initial;
+}
+.site-author-name {
+  color: #fff;
+}
+.site-description {
+  letter-spacing: 1px;
+/* font-size: 15px; */
+/* font-weight: bold; */
+/* margin-top: 15px; */
+/* margin-left: 13px; */
+  color: #fff;
+}
+.site-state {
+  line-height: 1.3;
+  margin-left: 12px;
+}
+.site-state-item {
+  padding: 0px 15px;
+  border-left: 1.5px solid #fff;
+}
+.feed-link {
+  margin-top: 15px;
+  margin-left: 7px;
+}
+.feed-link a {
+  color: #fff;
+  border: 1px solid #9e9e9e !important;
+  border-radius: 15px;
+}
+.feed-link a:hover {
+  background-color: #a166ab;
+}
+.feed-link a i {
+  color: #fff;
+}
+.links-of-author {
+  margin-top: 0px;
+}
+.links-of-blogroll-title {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: rgba(7,179,155,0.75);
+  margin-left: 6px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.sidebar a {
+  color: #ccc;
+  border-bottom: none;
+}
+.sidebar a:hover {
+  color: #fff;
+}
+#days {
+  display: block;
+  color: #07b39b;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.post-toc ol a {
+  color: #07b39b;
+  border-bottom: 1px solid #607d8b;
+}
+.post-toc ol a:hover {
+  color: #a166ab;
+  border-bottom-color: #a166ab;
+}
+.post-toc .nav .active > a {
+  color: #a166ab;
+  border-bottom-color: #a166ab;
+}
+.post-toc .nav .active > a:hover {
+  color: #a166ab;
+  border-bottom-color: #a166ab;
+}
+.post-toc ol {
+  padding: 0px 10px 5px 10px;
+}
+a {
+  border-bottom-color: #5073b8;
+}
+a:hover {
+  color: #a166ab;
+  border-bottom-color: #a166ab;
+}
+.menu .menu-item a:hover {
+  border-bottom-color: rgba(161,102,171,0);
+}
+.menu .menu-item a {
+  font-size: 15px;
+}
+.post {
+  margin-bottom: 0px;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.7);
+  background-color: #fefefe;
+}
+.posts-expand .post-meta .post-description {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: #666;
+}
+.posts-expand .post-meta {
+  margin: 10px 0px 20px 0px;
 }
