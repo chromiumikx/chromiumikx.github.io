@@ -1821,7 +1821,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffdb5c;
+  background: #048e1f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2997,7 +2997,6 @@ img:hover {
 .links-of-blogroll-title {
   margin-bottom: 10px;
   margin-top: 15px;
-  color: rgba(7,179,155,0.75);
   margin-left: 6px;
   font-size: 15px;
   font-weight: bold;
@@ -3010,7 +3009,6 @@ img:hover {
 }
 #days {
   display: block;
-  color: #07b39b;
   font-size: 13px;
   margin-top: 15px;
 }
@@ -3023,8 +3021,8 @@ img:hover {
   border-bottom: 1px solid #f5f5f5;
 }
 .post-toc .nav .active > a {
-  color: #fff;
-  border-bottom-color: #f5f5f5;
+  color: #5073b8;
+  border-bottom-color: #5073b8;
 }
 .post-toc .nav .active > a:hover {
   color: #fff;
