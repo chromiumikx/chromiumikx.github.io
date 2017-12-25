@@ -748,7 +748,7 @@ pre .javascript .function {
   border: initial;
   border-left: 3px solid #eee;
   background-color: #f9f9f9;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 .post-body .note h2,
 .post-body .note h3,
@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #00baff;
+  background: #ffc8d0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3006,7 +3006,7 @@ blockquote.quotation {
   background-color: #eeeef0;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
