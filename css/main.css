@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #49835e;
+  background: #b52eff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2977,7 +2977,7 @@ hr {
 .site-title {
   display: inline-block;
   vertical-align: top;
-  line-height: 42px;
+  line-height: 44px;
   font-size: 26px;
 }
 .header-inner {
@@ -2995,9 +2995,8 @@ hr {
   width: 700px;
 }
 .menu {
-  float: right;
   margin-top: 11.5px;
-  margin-right: -10px;
+  margin-right: -5px;
   margin-bottom: 0px;
   margin-left: 0px;
 }
