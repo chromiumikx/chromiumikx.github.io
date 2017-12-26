@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b52eff;
+  background: #01a874;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3042,6 +3042,9 @@ img:hover {
 }
 .posts-expand .post-meta {
   margin: 10px 0px 10px 0px;
+}
+.posts-expand .post {
+  margin-top: 40px;
 }
 blockquote.quotation {
   color: #555;
