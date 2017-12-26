@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffc8d0;
+  background: #49835e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2964,6 +2964,50 @@ hr {
     text-align: center;
   }
 }
+.site-meta {
+  float: left;
+  margin-left: 0px;
+  line-height: normal;
+  text-align: right;
+}
+.site-meta .site-title {
+  font-size: 26px;
+  font-weight: bolder;
+}
+.site-title {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 42px;
+  font-size: 26px;
+}
+.header-inner {
+  padding: 20px 0 20px;
+}
+.main {
+  padding-bottom: 80px;
+  padding-top: 0px;
+}
+.main-inner {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: 700px;
+}
+.menu {
+  float: right;
+  margin-top: 11.5px;
+  margin-right: -10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.menu .menu-item a {
+  padding: 0 5px;
+  background: none;
+  border: none;
+  border-radius: 2px;
+  transition-property: background;
+}
 .container {
   background-color: rgba(255,255,255,0.5);
 }
@@ -3008,6 +3052,43 @@ blockquote.quotation {
   border-bottom-right-radius: 3px;
   margin-bottom: 10px;
 }
+blockquote.citeother {
+  color: #555;
+  border-left: 3px solid #969696;
+  background-color: #f4f4f4;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.post-body .note {
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.post-body .note:not(.no-icon) {
+  padding-left: 35px;
+}
+.post-body .note:not(.no-icon):before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  font-size: larger;
+  top: 2.5px;
+  left: 13px;
+}
+::selection {
+  background-color: #ff4040;
+  color: #fff;
+}
+*::-moz-selection {
+  background-color: #ff4040;
+  color: #fff;
+}
+hr {
+  margin: 20px -5px 20px -5px;
+}
 #heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
 }
@@ -3018,6 +3099,10 @@ img.img-topic {
   width: 100%;
 }
 @media (max-width: 767px) {
+  .site-meta {
+    float: left;
+    margin-left: 5px;
+  }
   .posts-expand {
     margin: 3px;
   }
