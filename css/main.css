@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffc7ff;
+  background: #9f6af7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3053,7 +3053,7 @@ img:hover {
 blockquote.quotation {
   color: #555;
   border-left: 3px solid #696969;
-  background-color: #eeeef0;
+  background-color: rgba(238,238,240,0.5);
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   margin-bottom: 10px;
@@ -3061,7 +3061,7 @@ blockquote.quotation {
 blockquote.citeother {
   color: #555;
   border-left: 3px solid #969696;
-  background-color: #f4f4f4;
+  background-color: rgba(244,244,244,0.7);
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   margin-bottom: 25px;
@@ -3093,7 +3093,11 @@ blockquote.citeother {
   color: #fff;
 }
 hr {
-  margin: 20px -5px 20px -5px;
+  margin: 20px 0 20px;
+  height: 1px;
+  border: none;
+  background-color: rgba(204,204,204,0.7);
+  background-image: repeating-linear-gradient(-45deg, #fff, #fff 0px, transparent 0px, transparent 0px);
 }
 #heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
@@ -3103,6 +3107,21 @@ hr {
 }
 img.img-topic {
   width: 100%;
+}
+pre .addition {
+  background: #e6ffed;
+}
+pre .deletion {
+  background: #ffeef0;
+}
+.highlight figcaption {
+  margin: 0em;
+  padding: 0.5em;
+  background: #eee;
+  border-bottom: 1px solid #e9e9e9;
+}
+.highlight figcaption a {
+  color: #5073b8;
 }
 @media (max-width: 767px) {
   .site-meta {
