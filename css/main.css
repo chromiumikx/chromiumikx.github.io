@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f6af7;
+  background: #cd6acc;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2964,6 +2964,22 @@ hr {
     text-align: center;
   }
 }
+.header {
+  background: #9cf;
+}
+.brand {
+  color: #fff;
+}
+.brand:hover {
+  color: #036;
+}
+.logo-line-before i,
+.logo-line-after i {
+  position: relative;
+  display: block;
+  height: 0px;
+  background: #fff;
+}
 .site-meta {
   float: left;
   margin-left: 0px;
@@ -2984,11 +3000,11 @@ hr {
   padding: 20px 0 20px;
 }
 .main {
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   padding-top: 0px;
 }
 .main-inner {
-  margin-top: 40px;
+  margin-top: 80px;
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
@@ -3001,21 +3017,19 @@ hr {
   margin-left: 0px;
 }
 .menu .menu-item a {
+  color: #fff;
+  font-size: 15px;
   padding: 0 5px;
-  background: none;
   border: none;
   border-radius: 2px;
   transition-property: background;
 }
-.container {
-  background-color: rgba(255,255,255,0.5);
-}
-.menu .menu-item a {
-  font-size: 15px;
+.menu .menu-item a:hover {
+  background: #69c;
 }
 .sidebar {
   box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
-  background-color: rgba(0,0,0,0.85);
+  background-color: rgba(0,0,0,0.75);
 }
 .site-author-image {
   border: 2px solid #fff;
@@ -3039,13 +3053,21 @@ img:hover {
 .post {
   padding: 1px 20px 10px 20px;
   font-size: 16px;
-  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 1px 0px;
 }
 .posts-expand .post-meta {
   margin: 10px 0px 10px 0px;
 }
 .posts-expand .post {
-  margin-top: 40px;
+  margin-top: 80px;
+}
+.pagination {
+  margin: 40px 0 40px;
+  text-align: left;
+}
+.footer {
+  position: relative;
+  margin-top: 0px;
 }
 .posts-expand .post-tags a {
   color: #55d;
@@ -3124,19 +3146,36 @@ pre .deletion {
   color: #5073b8;
 }
 @media (max-width: 767px) {
+  .main {
+    padding-bottom: 0px;
+  }
+  .header-inner {
+    margin-bottom: 0px;
+  }
+  .main-inner {
+    margin-top: 0px;
+  }
   .site-meta {
     float: left;
     margin-left: 5px;
+  }
+  .posts-expand .post {
+    margin-top: 40px;
   }
   .posts-expand {
     margin: 3px;
   }
   .post {
+    font-size: 14px;
     padding: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
   }
   .post-body {
     text-align: justify !important;
+  }
+  .pagination {
+    margin: 20px 0 10px;
+    text-align: left;
   }
 }
 .sidebar-active #sidebar-dimmer {
