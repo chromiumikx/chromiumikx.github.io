@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #24ff70;
+  background: #b6a645;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3036,7 +3036,7 @@ hr {
   color: #fff;
 }
 .brand:hover {
-  color: rgba(255,255,255,0.8);
+  color: #69c;
 }
 .logo-line-before i,
 .logo-line-after i {
@@ -3152,17 +3152,15 @@ hr {
 }
 .post-button a {
   padding: 0 10px 0 10px;
-  border-radius: 1px;
-  border-right: 1px solid #666;
-  border-top: 1px solid #666;
-  border-left: 1px solid #666;
-  border-bottom: 1px solid #666;
-  transition-property: border;
+  background: #9cf;
+  color: #fff;
+  border-top: 2px solid #9cf;
+  border-bottom: 2px solid #9cf;
 }
 .post-button a:hover {
-  color: #fff;
-  border-color: #9cf;
-  background: #9cf;
+  background: #9ce;
+  border-top: 2px solid #9cf;
+  border-bottom: 2px solid #9ce;
 }
 .pagination {
   margin: 40px 0 40px;
