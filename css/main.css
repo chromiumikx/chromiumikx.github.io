@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #87ff29;
+  background: #ff91b6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3297,6 +3297,9 @@ pre .deletion {
   .posts-expand .post {
     margin-top: 40px;
   }
+  .posts-expand .post-body {
+    font-size: 14px;
+  }
   .posts-expand {
     margin: 5px;
     margin-top: auto;
@@ -3313,37 +3316,26 @@ pre .deletion {
     margin: 20px 20px 20px 20px;
   }
   .posts-collapse {
-    margin: 0 0px;
+    margin: 5px 20px;
   }
   .post-block {
     opacity: 0;
-    margin: 10px 10px 20px 10px;
   }
   .posts-collapse .post-header {
     border-bottom-width: 0px;
     border-bottom-style: ridge;
     border-bottom-color: rgba(153,204,255,0.929);
   }
-  .posts-collapse .post-header::before {
-    margin-left: -6px;
-  }
   .posts-collapse::after {
     height: 97%;
   }
   .posts-collapse .collection-title {
     position: relative;
-    margin: 30px 0;
   }
   .posts-collapse .post {
-    margin: 0px 0;
-    padding: 2px;
-  }
-  .posts-collapse .post-meta {
-    left: 5px;
-  }
-  .posts-collapse .post-title {
-    margin-left: 50px;
-    margin-bottom: 10px;
+    margin: 0;
+    margin-left: 0px;
+    padding: 0px;
   }
 }
 .sidebar-active #sidebar-dimmer {
