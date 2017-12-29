@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff91b6;
+  background: #ffffd2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3322,9 +3322,9 @@ pre .deletion {
     opacity: 0;
   }
   .posts-collapse .post-header {
-    border-bottom-width: 0px;
+    border-bottom-width: 1px;
     border-bottom-style: ridge;
-    border-bottom-color: rgba(153,204,255,0.929);
+    border-bottom-color: rgba(153,204,255,0.7);
   }
   .posts-collapse::after {
     height: 97%;
@@ -3336,6 +3336,9 @@ pre .deletion {
     margin: 0;
     margin-left: 0px;
     padding: 0px;
+  }
+  .posts-collapse .post-title {
+    margin-left: 70px;
   }
 }
 .sidebar-active #sidebar-dimmer {
