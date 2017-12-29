@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffd2;
+  background: #813bff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3055,6 +3055,13 @@ hr {
   font-size: 26px;
   font-weight: bolder;
 }
+.site-meta .brand {
+  height: 34px;
+}
+.site-meta .brand:hover {
+  height: 34px;
+  background-color: rgba(255,255,255,0);
+}
 .site-title {
   display: inline-block;
   vertical-align: top;
@@ -3163,7 +3170,7 @@ hr {
   border-bottom: 2px solid #9ce;
 }
 .pagination {
-  margin: 40px 0 40px;
+  margin: 40px -10px 40px;
   text-align: left;
 }
 .footer {
@@ -3173,6 +3180,14 @@ hr {
 .posts-expand .post-tags a {
   color: #55d;
 }
+blockquote {
+  color: #555;
+  border-left: 3px solid #9cf;
+  background-color: rgba(0,128,255,0.051);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-bottom: 10px;
+}
 blockquote.quotation {
   color: #555;
   border-left: 3px solid #9cf;
@@ -3181,14 +3196,9 @@ blockquote.quotation {
   border-bottom-right-radius: 3px;
   margin-bottom: 10px;
 }
-blockquote.citeother {
-  color: #555;
-  border-left: 3px solid #969696;
-  background-color: rgba(244,244,244,0.7);
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  margin-bottom: 25px;
-  margin-top: 20px;
+.post-body .note.info {
+  background-color: rgba(22,107,236,0.102);
+  border-left-color: #166bec;
 }
 .post-body .note {
   padding-top: 5px;
@@ -3207,6 +3217,10 @@ blockquote.citeother {
   font-size: larger;
   top: 2.5px;
   left: 13px;
+}
+.post-body .note.info:not(.no-icon):before {
+  content: "\f05a";
+  color: #166bec;
 }
 ::selection {
   background-color: #ff4040;
@@ -3247,13 +3261,15 @@ pre .deletion {
 .highlight figcaption a {
   color: #5073b8;
 }
+.post-block.archive {
+  margin-bottom: 80px;
+}
 @media (max-width: 767px) {
   .main {
     padding-bottom: 0px;
   }
   .header-inner {
     margin-bottom: 0px;
-    padding: 40px 0 20px;
   }
   .main-inner {
     margin-top: 0px;
@@ -3313,13 +3329,16 @@ pre .deletion {
     text-align: justify !important;
   }
   .pagination {
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 5px;
   }
   .posts-collapse {
     margin: 5px 20px;
   }
   .post-block {
     opacity: 0;
+  }
+  .post-block.archive {
+    margin-bottom: 40px;
   }
   .posts-collapse .post-header {
     border-bottom-width: 1px;
@@ -3331,6 +3350,7 @@ pre .deletion {
   }
   .posts-collapse .collection-title {
     position: relative;
+    margin: 30px 0;
   }
   .posts-collapse .post {
     margin: 0;
