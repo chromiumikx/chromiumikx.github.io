@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Roboto Slab', 'Lato', -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "STHeiti", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Droid Sans Fallback", "Microsoft YaHei", "SimHei", source-han-sans-simplified-c, sans-serif;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "STHeiti", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Droid Sans Fallback", "Microsoft YaHei", "SimHei", source-han-sans-simplified-c, sans-serif;
 }
 h2,
 h3,
@@ -1652,8 +1652,8 @@ pre .javascript .function {
 .posts-expand .post-eof {
   display: block;
   margin: 80px auto 60px;
-  width: 8%;
-  height: 1px;
+  width: 100%;
+  height: 2px;
   background: #ccc;
   text-align: center;
 }
@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cd6acc;
+  background: #3c81d6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2964,6 +2964,19 @@ hr {
     text-align: center;
   }
 }
+.posts-expand .post-eof {
+  display: block;
+  margin: 80px auto 60px;
+  width: 100%;
+  height: 3px;
+  background: #ccc;
+  text-align: center;
+}
+.posts-expand .post-title-link::before {
+  height: 2px;
+  bottom: -2px;
+  background-color: #555;
+}
 .header {
   background: #9cf;
 }
@@ -2971,7 +2984,7 @@ hr {
   color: #fff;
 }
 .brand:hover {
-  color: #036;
+  color: rgba(255,255,255,0.8);
 }
 .logo-line-before i,
 .logo-line-after i {
@@ -2997,7 +3010,7 @@ hr {
   font-size: 26px;
 }
 .header-inner {
-  padding: 20px 0 20px;
+  padding: 40px 0 40px;
 }
 .main {
   padding-bottom: 0px;
@@ -3031,12 +3044,24 @@ hr {
   box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
   background-color: rgba(0,0,0,0.75);
 }
+.sidebar-toggle {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.back-to-top {
+  right: 60px;
+}
+.back-to-top.back-to-top-on {
+  bottom: 30px;
+  right: 60px;
+}
 .site-author-image {
   border: 2px solid #fff;
   border-radius: 100%;
   transition: transform 1s ease-out;
 }
-img:hover {
+.site-author-image:hover {
   -webkit-transform: rotateZ(360deg);
   -moz-transform: rotateZ(360deg);
   -ms-transform: rotateZ(360deg);
@@ -3051,15 +3076,41 @@ img:hover {
   transform: initial;
 }
 .post {
-  padding: 1px 20px 10px 20px;
+  padding: 0px 0px 0px 0px;
   font-size: 16px;
-  box-shadow: 0px 0px 1px 0px;
+  box-shadow: 0px 0px 0px 0px;
 }
 .posts-expand .post-meta {
   margin: 10px 0px 10px 0px;
 }
 .posts-expand .post {
   margin-top: 80px;
+}
+.posts-expand .post-eof {
+  margin: 2px;
+  background-color: #fff;
+}
+.posts-expand .post-tags {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.posts-expand .post-nav {
+  margin-top: 30px;
+}
+.post-button a {
+  padding: 0 10px 0 10px;
+  border-radius: 1px;
+  border-right: 1px solid #666;
+  border-top: 1px solid #666;
+  border-left: 1px solid #666;
+  border-bottom: 1px solid #666;
+  transition-property: border;
+}
+.post-button a:hover {
+  color: #fff;
+  border-color: #9cf;
+  background: #9cf;
 }
 .pagination {
   margin: 40px 0 40px;
@@ -3074,8 +3125,8 @@ img:hover {
 }
 blockquote.quotation {
   color: #555;
-  border-left: 3px solid #696969;
-  background-color: rgba(238,238,240,0.5);
+  border-left: 3px solid #9cf;
+  background-color: rgba(153,204,255,0.15);
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   margin-bottom: 10px;
@@ -3095,6 +3146,7 @@ blockquote.citeother {
   padding-bottom: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 0px;
 }
 .post-body .note:not(.no-icon) {
   padding-left: 35px;
@@ -3151,24 +3203,57 @@ pre .deletion {
   }
   .header-inner {
     margin-bottom: 0px;
+    padding: 40px 0 20px;
   }
   .main-inner {
     margin-top: 0px;
   }
   .site-meta {
+    font-size: 40px;
     float: left;
-    margin-left: 5px;
+    margin-left: 20px;
+  }
+  .site-meta .site-title {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  .site-nav {
+    border-top: 0px solid #ddd;
+    margin: 0px 0px;
+    padding: 10px 10px 10px;
+  }
+  .site-nav-toggle button {
+    margin-top: 3px;
+    margin-right: 15px;
+    padding: 10px 10px 10px 10px;
+  }
+  .sidebar-toggle {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+  }
+  .back-to-top {
+    padding: 0, 0, 0;
+    right: 40px;
+  }
+  .back-to-top.back-to-top-on {
+    bottom: 15px;
+    right: 40px;
+  }
+  .btn-bar {
+    background: #fff;
   }
   .posts-expand .post {
     margin-top: 40px;
   }
   .posts-expand {
-    margin: 3px;
+    margin: 5px;
+    margin-top: auto;
   }
   .post {
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
   }
   .post-body {
     text-align: justify !important;
