@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffa3d9;
+  background: #28ff75;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2986,19 +2986,19 @@ hr {
   position: absolute;
   top: 7px;
   left: 0;
-  margin-left: -8px;
-  width: 15px;
-  height: 15px;
+  margin-left: -11px;
+  width: 12px;
+  height: 12px;
   opacity: 0.6;
-  background: #166bec;
-  border: 1px solid #9cf;
+  background: rgba(255,0,0,0.878);
+  border: 4px solid rgba(240,175,78,0.961);
   border-radius: 50%;
 }
 .posts-collapse {
   position: relative;
   z-index: 1010;
   margin-left: 0;
-  color: #249aff;
+  color: #166bec;
 }
 .posts-collapse::after {
   content: " ";
@@ -3013,11 +3013,14 @@ hr {
 }
 .posts-collapse .collection-title::before {
   left: -1px;
-  opacity: 0.8;
-  border: 1px solid #fff;
-  background: #166bec;
+  opacity: 1;
+  border: 1px solid rgba(249,249,249,0.439);
+  background: #428bca;
 }
 .posts-collapse .post-header::before {
+  background: #9cf;
+}
+.posts-collapse .post-header::before: hover {
   background: #9cf;
 }
 .posts-collapse .post-header {
@@ -3091,10 +3094,11 @@ hr {
 .menu .menu-item a {
   color: #fff;
   font-size: 15px;
-  padding: 0 5px;
+  padding: 0 10px;
   border: none;
   border-radius: 2px;
   transition-property: background;
+  width: fit-content;
 }
 .menu .menu-item a:hover {
   background: #69c;
@@ -3140,7 +3144,11 @@ hr {
   box-shadow: 0px 0px 0px 0px;
 }
 .posts-expand .post-meta {
+  text-align: left;
   margin: 10px 0px 10px 0px;
+}
+.posts-expand .post-title {
+  text-align: left;
 }
 .posts-expand .post {
   margin-top: 80px;
@@ -3157,20 +3165,32 @@ hr {
 .posts-expand .post-nav {
   margin-top: 30px;
 }
+.page-post-detail .post-title,
+.page-post-detail .post-meta {
+  text-align: center;
+}
 .post-button a {
   padding: 0 10px 0 10px;
-  background: #9cf;
-  color: #fff;
+  color: #9cf;
   border-top: 2px solid #9cf;
+  border-left: 2px solid #9cf;
   border-bottom: 2px solid #9cf;
+  border-right: 2px solid #9cf;
 }
 .post-button a:hover {
   background: #9ce;
+  color: #fff;
   border-top: 2px solid #9cf;
-  border-bottom: 2px solid #9ce;
+  border-left: 2px solid #9cf;
+  border-bottom: 2px solid #9cf;
+  border-right: 2px solid #9cf;
+}
+.post-button {
+  margin-top: 0px;
+  text-align: left;
 }
 .pagination {
-  margin: 40px -10px 40px;
+  margin: 40px 0px 40px;
   text-align: center;
 }
 .footer {
@@ -3178,45 +3198,42 @@ hr {
   margin-top: 0px;
 }
 .posts-expand .post-tags a {
-  color: #55d;
+  padding: 0px 10px;
+  color: #166bec;
+  background: rgba(22,107,236,0.1);
+  border-bottom: none;
+}
+.posts-expand .post-tags a: hover {
+  background: rgba(22,107,236,0.2);
 }
 blockquote {
   color: #555;
+  padding: 0px 4px 0px 4px;
+  margin: 10px 0 10px 0;
   border-left: 3px solid #9cf;
-  background-color: rgba(0,128,255,0.051);
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  margin-bottom: 10px;
+  background-color: rgba(153,204,255,0.149);
 }
-blockquote.quotation {
-  color: #555;
-  border-left: 3px solid #9cf;
-  background-color: rgba(153,204,255,0.15);
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  margin-bottom: 10px;
+blockquote p {
+  margin: 0px 0px 0px 0px;
 }
 .post-body .note.info {
   background-color: rgba(22,107,236,0.102);
   border-left-color: #166bec;
 }
 .post-body .note {
-  padding-top: 5px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 0px 5px 0px 5px;
+  margin: 10px 0 10px 0;
   border-radius: 0px;
 }
 .post-body .note:not(.no-icon) {
-  padding-left: 35px;
+  padding-left: 28px;
 }
 .post-body .note:not(.no-icon):before {
   position: absolute;
   font-family: 'FontAwesome';
   font-size: larger;
-  top: 2.5px;
-  left: 13px;
+  top: -3px;
+  left: 6px;
 }
 .post-body .note.info:not(.no-icon):before {
   content: "\f05a";
@@ -3316,11 +3333,22 @@ pre .deletion {
   .posts-expand .post-title {
     font-size: 18px;
   }
+  .page-post-detail .post-title,
+  .page-post-detail .post-meta {
+    text-align: center;
+  }
+  .posts-expand .post-meta {
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+  }
+  .posts-expand .post-title {
+    text-align: left;
+  }
   .posts-expand .post-body {
     font-size: 14px;
   }
   .posts-expand {
-    margin: 5px;
+    margin: 15px;
     margin-top: auto;
   }
   .post {
@@ -3334,8 +3362,10 @@ pre .deletion {
   .pagination {
     margin: 20px 20px 20px 5px;
   }
-  .posts-collapse {
-    margin: 5px 20px;
+  .pagination .page-number.current {
+    color: #fff;
+    background: #9cf;
+    border-top-color: #428bca;
   }
   .post-block {
     opacity: 0;
@@ -3343,13 +3373,27 @@ pre .deletion {
   .post-block.archive {
     margin-bottom: 40px;
   }
+  .posts-collapse {
+    margin: 5px 20px 40px 20px;
+  }
   .posts-collapse .post-header {
     border-bottom-width: 1px;
     border-bottom-style: ridge;
     border-bottom-color: rgba(153,204,255,0.7);
   }
+  .posts-collapse .post-header::before {
+    color: rgba(153,204,255,0.5);
+  }
+  .posts-collapse .post-header::before: hover {
+    color: #9cf;
+  }
+  .posts-collapse .post-header: hover {
+    border-bottom-width: 1px;
+    border-bottom-style: ridge;
+    border-bottom-color: #9cf;
+  }
   .posts-collapse::after {
-    height: 97%;
+    height: 100%;
   }
   .posts-collapse .collection-title {
     position: relative;
@@ -3362,6 +3406,13 @@ pre .deletion {
   }
   .posts-collapse .post-title {
     margin-left: 70px;
+  }
+  .post-body .note:not(.no-icon) {
+    padding-left: 25px;
+  }
+  .post-body .note:not(.no-icon):before {
+    top: -2px;
+    left: 6px;
   }
 }
 .sidebar-active #sidebar-dimmer {
