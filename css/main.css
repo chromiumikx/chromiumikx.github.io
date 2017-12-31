@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #28ff75;
+  background: #ffff93;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3094,7 +3094,7 @@ hr {
 .menu .menu-item a {
   color: #fff;
   font-size: 15px;
-  padding: 0 10px;
+  padding: 0 5px;
   border: none;
   border-radius: 2px;
   transition-property: background;
@@ -3146,6 +3146,9 @@ hr {
 .posts-expand .post-meta {
   text-align: left;
   margin: 10px 0px 10px 0px;
+}
+.post-meta-item-text {
+  display: inline;
 }
 .posts-expand .post-title {
   text-align: left;
@@ -3311,6 +3314,9 @@ pre .deletion {
     margin-right: 15px;
     padding: 10px 10px 10px 10px;
   }
+  .menu .menu-item a {
+    padding: 0 5px;
+  }
   .sidebar-toggle {
     position: fixed;
     right: 15px;
@@ -3338,11 +3344,15 @@ pre .deletion {
     text-align: center;
   }
   .posts-expand .post-meta {
-    text-align: left;
+    text-align: center;
     margin: 10px 0px 10px 0px;
   }
+  .post-meta-item-text {
+    display: inline;
+  }
   .posts-expand .post-title {
-    text-align: left;
+    text-align: center;
+    margin-top: 10px;
   }
   .posts-expand .post-body {
     font-size: 14px;
