@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6fffe8;
+  background: #ffff2d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3212,15 +3212,18 @@ hr {
 .posts-expand .post-tags a: hover {
   background: rgba(22,107,236,0.2);
 }
+code {
+  padding: 2px 4px;
+  word-wrap: break-word;
+  color: #555;
+  background: rgba(240,173,78,0.439);
+  border-radius: 3px;
+  font-size: 15px;
+}
 blockquote {
   color: #555;
-  padding: 0px 6px 0px 6px;
-  margin: 10px 0 10px 0;
   border-left: 3px solid #9cf;
   background-color: rgba(153,204,255,0.1);
-}
-blockquote p {
-  margin: 0px 0px 0px 0px;
 }
 .post-body .note.info {
   border-left-color: #166bec;
