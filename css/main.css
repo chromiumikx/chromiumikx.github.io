@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b590d0;
+  background: #5c45ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3164,6 +3164,7 @@ hr {
 .posts-expand .post-tags {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 12px;
   text-align: center;
 }
 .posts-expand .post-nav {
@@ -3202,9 +3203,9 @@ hr {
   margin-top: 0px;
 }
 .posts-expand .post-tags a {
-  margin-right: 10px;
-  margin-left: 10px;
-  padding: 0px 10px 0px 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 0px 5px 0px 5px;
   color: #166bec;
   background: rgba(22,107,236,0.1);
   border-bottom: none;
