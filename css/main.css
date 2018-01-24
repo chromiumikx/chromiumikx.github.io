@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8347ff;
+  background: #916933;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3203,8 +3203,7 @@ hr {
   margin-top: 0px;
 }
 .posts-expand .post-tags a {
-  margin-right: 5px;
-  margin-left: 5px;
+  margin: 5px;
   padding: 0px 5px 0px 5px;
   color: #166bec;
   background: rgba(22,107,236,0.1);
@@ -3227,6 +3226,9 @@ blockquote {
   background-color: rgba(153,204,255,0.1);
 }
 blockquote.quotation {
+  margin-bottom: 25px;
+}
+blockquote.citeother {
   margin-bottom: 25px;
 }
 .post-body .note.info {
