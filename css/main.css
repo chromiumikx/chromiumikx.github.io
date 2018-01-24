@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f0b9d9;
+  background: #8347ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3146,7 +3146,7 @@ hr {
 }
 .posts-expand .post-meta {
   text-align: left;
-  margin: 10px 0px 10px 0px;
+  margin: 20px 0px 25px 0px;
 }
 .post-meta-item-text {
   display: inline;
@@ -3226,6 +3226,9 @@ blockquote {
   border-left: 3px solid #9cf;
   background-color: rgba(153,204,255,0.1);
 }
+blockquote.quotation {
+  margin-bottom: 25px;
+}
 .post-body .note.info {
   border-left-color: #166bec;
   background-color: rgba(22,107,236,0.08);
@@ -3235,7 +3238,7 @@ blockquote {
 }
 .post-body .note {
   padding: 0px 5px 0px 5px;
-  margin: 10px 0 10px 0;
+  margin: 0px 0 25px 0;
   border-radius: 0px;
 }
 .post-body .note:not(.no-icon) {
@@ -3259,6 +3262,9 @@ blockquote {
 *::-moz-selection {
   background-color: #ff4040;
   color: #fff;
+}
+a {
+  padding-bottom: 2px;
 }
 hr {
   margin: 20px 0 20px;
