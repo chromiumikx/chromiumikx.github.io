@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffb8de;
+  background: #4b266b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3273,8 +3273,8 @@ a {
   padding-bottom: 1px;
 }
 hr {
-  margin: 25px 0 25px;
-  height: 1.5px;
+  margin: 40px 0 25px;
+  height: 1px;
   border: none;
   background-color: rgba(204,204,204,0.7);
   background-image: repeating-linear-gradient(-45deg, #fff, #fff 0px, transparent 0px, transparent 0px);
@@ -3368,7 +3368,7 @@ pre .deletion {
     margin-top: 40px;
     margin-bottom: -20px;
     width: 100%;
-    height: 1.5px;
+    height: 2px;
     background-image: repeating-linear-gradient(-45deg, #166bec, #9cf, #166bec);
     text-align: center;
   }
