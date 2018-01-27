@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3296a2;
+  background: #4d1da2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3161,7 +3161,7 @@ h6 {
   display: block;
   margin-top: 80px;
   width: 100%;
-  height: 1px;
+  height: 2px;
   background-image: repeating-linear-gradient(-45deg, #166bec, #9cf, #166bec);
   text-align: center;
 }
@@ -3368,7 +3368,6 @@ pre .deletion {
     margin-top: 40px;
     margin-bottom: -20px;
     width: 100%;
-    height: 1px;
     background-image: repeating-linear-gradient(-45deg, #166bec, #9cf, #166bec);
     text-align: center;
   }
