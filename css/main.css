@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #40d017;
+  background: #a1ff78;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3227,7 +3227,6 @@ code {
 blockquote {
   color: #555;
   padding-bottom: 10px;
-  padding-top: 10px;
   border-left: 3px solid #9cf;
   background-color: rgba(153,204,255,0.1);
 }
