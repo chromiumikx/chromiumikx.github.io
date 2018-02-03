@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0fc27f;
+  background: #8244ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3107,6 +3107,7 @@ hr {
 }
 .back-to-top {
   right: 60px;
+  bottom: 25px;
 }
 .back-to-top.back-to-top-on {
   bottom: 25px;
@@ -3226,9 +3227,13 @@ code {
 }
 blockquote {
   color: #555;
-  padding-top: 10px;
+  padding: 8px 6px 8px 6px;
+  margin: 0px 0px 25px 0px;
   border-left: 3px solid #9cf;
   background-color: rgba(153,204,255,0.1);
+}
+blockquote p {
+  margin: 0px 0px 0px 0px;
 }
 blockquote.quotation {
   margin-bottom: 25px;
@@ -3348,7 +3353,7 @@ pre .deletion {
     bottom: 15px;
   }
   .back-to-top {
-    padding: 0, 0, 0;
+    bottom: 15px;
     right: 50px;
   }
   .back-to-top.back-to-top-on {
@@ -3362,12 +3367,12 @@ pre .deletion {
     margin-top: 40px;
   }
   .posts-expand .post-title {
-    font-size: 18px;
+    font-size: 20px;
   }
   .posts-expand .post-eof {
     display: block;
     margin-top: 40px;
-    margin-bottom: -20px;
+    margin-bottom: -40px;
     width: 100%;
     background-image: repeating-linear-gradient(-45deg, #166bec, #9cf, #166bec);
     text-align: center;
@@ -3378,14 +3383,14 @@ pre .deletion {
   }
   .posts-expand .post-meta {
     text-align: center;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
   }
   .post-meta-item-text {
     display: inline;
   }
   .posts-expand .post-title {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .posts-expand .post-body {
     font-size: 14px;
