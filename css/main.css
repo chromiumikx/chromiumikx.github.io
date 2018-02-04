@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f5c46b;
+  background: #94e952;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3238,7 +3238,7 @@ blockquote.citeother {
   position: absolute;
   font-family: 'FontAwesome';
   font-size: larger;
-  top: 5px;
+  top: 6px;
   left: 6px;
 }
 .post-body .note.info:not(.no-icon):before {
@@ -3405,11 +3405,12 @@ pre .deletion {
   }
   .page-archive .archive-page-counter {
     font-size: 1rem;
+    top: 0;
   }
   .posts-collapse .post-header {
     margin-left: -5px;
   }
-  .posts-collapse .post-header ::before {
+  .posts-collapse .post-header::before {
     top: 8px;
   }
   .posts-collapse .post {
@@ -3430,7 +3431,7 @@ pre .deletion {
     padding-left: 25px;
   }
   .post-body .note:not(.no-icon):before {
-    top: -2px;
+    top: 6px;
     left: 6px;
   }
 }
