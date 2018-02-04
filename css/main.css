@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #18ff71;
+  background: #f5c46b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2975,7 +2975,8 @@ hr {
   border-top-color: #428bca;
 }
 .page-archive .archive-page-counter {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  top: -5px;
 }
 .posts-collapse .collection-title {
   position: relative;
@@ -2997,6 +2998,10 @@ hr {
 }
 .posts-collapse .post-header {
   border-bottom: 0px dashed #ccc;
+}
+.posts-collapse .collection-title h1,
+.posts-collapse .collection-title h2 {
+  font-size: 1.2rem;
 }
 .header {
   background: #9cf;
