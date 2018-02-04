@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #94e952;
+  background: #7fff34;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3422,7 +3422,7 @@ pre .deletion {
     margin-bottom: -15px;
   }
   .posts-collapse .post-title {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
   .posts-collapse .post-meta {
     top: 0px;
