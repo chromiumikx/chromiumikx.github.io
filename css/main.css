@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8244ff;
+  background: #e2bbc4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3107,7 +3107,6 @@ hr {
 }
 .back-to-top {
   right: 60px;
-  bottom: 25px;
 }
 .back-to-top.back-to-top-on {
   bottom: 25px;
@@ -3249,7 +3248,7 @@ blockquote.citeother {
   background-color: rgba(253,248,234,0.6);
 }
 .post-body .note {
-  padding: 0px 5px 0px 5px;
+  padding: 8px 5px 8px 5px;
   margin: 0px 0 25px 0;
   border-radius: 0px;
 }
@@ -3260,7 +3259,7 @@ blockquote.citeother {
   position: absolute;
   font-family: 'FontAwesome';
   font-size: larger;
-  top: -3px;
+  top: 5px;
   left: 6px;
 }
 .post-body .note.info:not(.no-icon):before {
@@ -3279,7 +3278,7 @@ a {
   padding-bottom: 1px;
 }
 hr {
-  margin: 40px 0 25px;
+  margin: 40px 0 40px;
   height: 1px;
   border: none;
   background-color: rgba(204,204,204,0.7);
@@ -3353,8 +3352,9 @@ pre .deletion {
     bottom: 15px;
   }
   .back-to-top {
-    bottom: 15px;
+    bottom: -25px;
     right: 50px;
+    opacity: 0.8;
   }
   .back-to-top.back-to-top-on {
     bottom: 15px;
