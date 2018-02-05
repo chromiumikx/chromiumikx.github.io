@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #11ff37;
+  background: #ff8f6c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2988,6 +2988,15 @@ hr {
   margin-top: 0;
   margin-left: 100px;
   margin-bottom: 0;
+}
+.posts-collapse .post-title a:hover {
+  color: #9cf;
+}
+.posts-collapse .post-header:hover::before {
+  background: #9cf;
+}
+.posts-collapse .post-meta {
+  color: #999;
 }
 .posts-collapse .post-title a {
   color: #222;
