@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9effc4;
+  background: #479074;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3304,6 +3304,9 @@ pre .deletion {
 }
 .post-block.archive {
   margin-bottom: 80px;
+}
+.iframe.html.body #player {
+  margin: 0 0 0 0;
 }
 @media (max-width: 767px) {
   .main {
