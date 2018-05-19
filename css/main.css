@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f52bff;
+  background: #45bf12;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2964,6 +2964,9 @@ hr {
     text-align: center;
   }
 }
+.sidebar-nav li {
+  color: #ccc;
+}
 .posts-expand .post-title-link::before {
   height: 2px;
   bottom: -2px;
@@ -3013,8 +3016,8 @@ hr {
   font-size: 1.2rem;
 }
 .posts-expand .post-body img {
-  border: 0px solid #ddd;
   padding: 0px;
+  border: 0px solid #ddd;
 }
 .header {
   background: #9cf;
