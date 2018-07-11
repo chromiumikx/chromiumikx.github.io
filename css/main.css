@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffdb0e;
+  background: #75eb2a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3104,7 +3104,7 @@ body {
 }
 .sidebar {
   box-shadow: inset 1px 0px 0px 0px rgba(153,204,255,0.4);
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.9);
 }
 .site-state-item {
   display: inline-block;
@@ -3399,10 +3399,6 @@ pre .deletion {
     text-align: right;
     padding: 0 0px 0 0px;
     margin-right: 20px;
-  }
-  .sidebar {
-    box-shadow: inset 0px 0px 0px 0px rgba(249,249,249,0.51);
-    background-color: #f9f9f9;
   }
   .sidebar-toggle {
     position: fixed;
