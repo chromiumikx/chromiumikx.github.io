@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #50fff7;
+  background: #09a2e2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3124,13 +3124,16 @@ body {
   position: fixed;
   right: 25px;
   bottom: 25px;
+  background: #ccc;
 }
 .back-to-top {
   right: 60px;
+  background: #ccc;
 }
 .back-to-top.back-to-top-on {
   bottom: 25px;
   right: 60px;
+  background: #ccc;
 }
 .site-author-name {
   margin: 5px 0 0;
@@ -3395,15 +3398,18 @@ pre .deletion {
     position: fixed;
     right: 15px;
     bottom: 15px;
+    background: #ccc;
   }
   .back-to-top {
     bottom: -25px;
     right: 50px;
+    background: #ccc;
     opacity: 0.8;
   }
   .back-to-top.back-to-top-on {
     bottom: 15px;
     right: 50px;
+    background: #ccc;
   }
   .btn-bar {
     background: #fff;
