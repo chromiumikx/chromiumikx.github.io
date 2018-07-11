@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e2db7e;
+  background: #144a06;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2965,9 +2965,12 @@ hr {
   }
 }
 html,
-body {
-  height: 100%;
+body,
+element.style {
   padding-right: 0;
+}
+body {
+  padding-right: 0 !important;
 }
 .sidebar-nav li {
   color: #ccc;
@@ -3115,6 +3118,7 @@ body {
 .site-state-item-name {
   font-size: px;
   color: #999;
+  font-weight: 600;
 }
 .sidebar-toggle {
   position: fixed;
@@ -3132,7 +3136,7 @@ body {
   margin: 5px 0 0;
   text-align: center;
   color: #999;
-  font-weight: normal;
+  font-weight: 600;
 }
 .site-description {
   margin-top: 5px;
