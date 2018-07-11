@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #144a06;
+  background: #50fff7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3386,6 +3386,10 @@ pre .deletion {
     text-align: right;
     padding: 0 0px 0 0px;
     margin-right: 20px;
+  }
+  .sidebar {
+    box-shadow: inset 0px 0px 0px 0px rgba(249,249,249,0.51);
+    background-color: #f9f9f9;
   }
   .sidebar-toggle {
     position: fixed;
