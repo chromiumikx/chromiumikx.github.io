@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #18b028;
+  background: #910fba;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3037,7 +3037,7 @@ body {
   color: #fff;
 }
 .brand:hover {
-  color: #69c;
+  color: rgba(66,139,202,0.502);
 }
 .logo-line-before i,
 .logo-line-after i {
@@ -3100,7 +3100,7 @@ body {
   width: inherit;
 }
 .menu .menu-item a:hover {
-  background: #b0d8ff;
+  background: rgba(66,139,202,0.502);
 }
 .sidebar {
   box-shadow: inset 1px 0px 0px 0px rgba(153,204,255,0.4);
