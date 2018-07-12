@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #75eb2a;
+  background: #a8ffdb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3105,6 +3105,7 @@ body {
 .sidebar {
   box-shadow: inset 1px 0px 0px 0px rgba(153,204,255,0.4);
   background-color: rgba(255,255,255,0.9);
+  font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
 }
 .site-state-item {
   display: inline-block;
