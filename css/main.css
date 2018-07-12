@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b0b4e0;
+  background: #9cd0c4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3260,11 +3260,11 @@ h6 {
   margin: 5px;
   padding: 0px 5px 0px 5px;
   color: #2d96ff;
-  background: rgba(229,242,255,0.569);
+  background: rgba(22,107,236,0.141);
   border-bottom: none;
 }
-.posts-expand .post-tags a: hover {
-  background: #e5f2ff;
+.posts-expand .post-tags a:hover {
+  background: #ddd;
 }
 .tag-cloud a:hover {
   color: #9cf;
