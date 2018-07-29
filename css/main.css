@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #984634;
+  background: #ff75c9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2982,7 +2982,7 @@ body {
   left: 0;
   width: 1000%;
 }
-#sidebar-dimmer {
+.sidebar-active #sidebar-dimmer {
   -webkit-transform: translateX(-100%);
   -moz-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
