@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a46eff;
+  background: #58e5e7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2977,6 +2977,16 @@ body {
 }
 .sidebar-nav li:hover {
   color: #ccc;
+}
+#sidebar-dimmer {
+  width: 1000%;
+}
+#sidebar-dimmer {
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 .posts-expand .post-title-link::before {
   height: 2px;
