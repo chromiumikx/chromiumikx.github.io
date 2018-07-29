@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #de6fba;
+  background: #67acff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3002,6 +3002,9 @@ body {
 .page-archive .archive-page-counter {
   font-size: 1.4rem;
   top: -5px;
+}
+.posts-collapse {
+  z-index: 0;
 }
 .posts-collapse .collection-title {
   position: relative;
