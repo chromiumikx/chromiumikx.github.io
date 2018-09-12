@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #40ff21;
+  background: #a4ffac;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3050,7 +3050,7 @@ body {
   border: 0px solid #ddd;
 }
 .header {
-  background: #9cf;
+  background: rgba(22,107,236,0.722);
 }
 .brand {
   color: #fff;
@@ -3247,19 +3247,19 @@ h6 {
 }
 .post-button a {
   padding: 0 10px 0 10px;
-  color: #9cf;
-  border-top: 2px solid #9cf;
-  border-left: 2px solid #9cf;
-  border-bottom: 2px solid #9cf;
-  border-right: 2px solid #9cf;
+  color: rgba(22,107,236,0.722);
+  border-top: 2px solid rgba(22,107,236,0.722);
+  border-left: 2px solid rgba(22,107,236,0.722);
+  border-bottom: 2px solid rgba(22,107,236,0.722);
+  border-right: 2px solid rgba(22,107,236,0.722);
 }
 .post-button a:hover {
   background: #9ce;
   color: #fff;
-  border-top: 2px solid #9cf;
-  border-left: 2px solid #9cf;
-  border-bottom: 2px solid #9cf;
-  border-right: 2px solid #9cf;
+  border-top: 2px solid rgba(22,107,236,0.722);
+  border-left: 2px solid rgba(22,107,236,0.722);
+  border-bottom: 2px solid rgba(22,107,236,0.722);
+  border-right: 2px solid rgba(22,107,236,0.722);
 }
 .post-button {
   margin-top: 0px;
