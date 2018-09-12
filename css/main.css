@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d73078;
+  background: #f6ff8f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3197,10 +3197,10 @@ h2 {
   color: #222;
 }
 h3 {
-  color: #333;
+  color: #444;
 }
 h4 {
-  color: #444;
+  color: #666;
 }
 .posts-expand .post-title-link .fa {
   font-size: 30px;
