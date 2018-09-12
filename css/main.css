@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a4ffac;
+  background: #d73078;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2997,7 +2997,7 @@ body {
 .posts-expand .post-title-link::before {
   height: 2px;
   bottom: -2px;
-  background-color: #555;
+  background-color: #332;
 }
 .pagination .page-number.current {
   color: #fff;
@@ -3193,6 +3193,15 @@ h5,
 h6 {
   margin: 20px 0 20px;
 }
+h2 {
+  color: #222;
+}
+h3 {
+  color: #333;
+}
+h4 {
+  color: #444;
+}
 .posts-expand .post-title-link .fa {
   font-size: 30px;
 }
@@ -3293,13 +3302,13 @@ h6 {
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #555;
+  color: #332;
   background: rgba(153,204,255,0.529);
   border-radius: 3px;
   font-size: 15px;
 }
 blockquote {
-  color: #555;
+  color: #332;
   padding: 1px 6px 8px 6px;
   margin: 0px 0px 25px 0px;
   border-left: 3px solid rgba(22,107,236,0.722);
