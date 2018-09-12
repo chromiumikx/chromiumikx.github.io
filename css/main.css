@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fc0840;
+  background: #2ef6e9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2972,6 +2972,11 @@ element.style {
 body {
   padding-right: 0 !important;
 }
+.sidebar {
+  box-shadow: inset 1px 0px 0px 0px rgba(22,107,236,0.722) 6;
+  background-color: rgba(255,255,255,0.9);
+  font-family: -apple-system, 'Lato', SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+}
 .sidebar-nav li {
   color: #999;
 }
@@ -3115,11 +3120,6 @@ body {
 }
 .menu .menu-item a:hover {
   background: rgba(66,139,202,0.502);
-}
-.sidebar {
-  box-shadow: inset 1px 0px 0px 0px rgba(22,107,236,0.722) 6;
-  background-color: rgba(255,255,255,0.9);
-  font-family: -apple-system, 'Lato', SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
 }
 .site-state-item {
   display: inline-block;
