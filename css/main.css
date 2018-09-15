@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f6ff8f;
+  background: #0686ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3096,11 +3096,11 @@ body {
   padding-top: 0px;
 }
 .main-inner {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-right: auto;
   margin-bottom: 80px;
   margin-left: auto;
-  width: 700px;
+  width: 620px;
 }
 .menu {
   float: right;
@@ -3395,6 +3395,11 @@ pre .deletion {
 }
 .post-block.archive {
   margin-bottom: 80px;
+}
+@media (min-width: 767px) {
+  .main-inner {
+    width: 620px;
+  }
 }
 @media (max-width: 767px) {
   .main {
